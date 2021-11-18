@@ -63,7 +63,7 @@ int main() {
 			system("cls");
 			cout << "[+] Результат:\n";
 			for (int i = 0; i < x; i++) {
-				for (int i = 0; i < x * 2 - 2; i++)
+				for (int i2 = 0; i2 < x * 2 - 2; i2++)
 					cout << y;
 				cout << endl;
 			}
@@ -221,7 +221,7 @@ int main() {
 		break;
 	}
 	case 6: {
-		cout << "[+] Фигура: \"Решетка\"\n\n[+] Размер: ";
+		cout << "[+] Фигура: \"Крестик\"\n\n[+] Размер: ";
 		cin >> x;
 		cout << "[+] Текстура: ";
 		char y;
@@ -240,7 +240,7 @@ int main() {
 		break;
 	}
 	case 7: {
-		cout << "[+] Фигура: \"Решетка\"\n\n[+] Размер: ";
+		cout << "[+] Фигура: \"Плюс\"\n\n[+] Размер: ";
 		cin >> x;
 		cout << "[+] Текстура: ";
 		char y;
