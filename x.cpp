@@ -113,7 +113,7 @@ int main() {
 			system("cls");
 			cout << "[+] Результат:\n";
 			for (int i = 0; i < x; i++) {
-				for (int i = 0; i < z * 2 - 2; i++)
+				for (int i2 = 0; i2 < z * 2 - 2; i2++)
 					cout << y;
 				cout << endl;
 			}
